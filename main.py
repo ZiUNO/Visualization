@@ -13,7 +13,9 @@ if __name__ == '__main__':
              2: 0.3},
         1:
             {2: 0.5,
-             3: 0.9}}
+             3: 0.9},
+        2:
+            {4: 0.1}}
     data = data_transform(data)
     total_points = tf_get_points(data)
     for tmp in total_points:
